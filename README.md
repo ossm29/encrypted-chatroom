@@ -3,7 +3,7 @@
 
 ## Chatroom sécurisée avec chiffrement de bout en bout
 
-Implémentation d'une chatroom sécurisée avec chiffrement de bout en bout utilisant le protocole TCP. Les messages échangés entre les clients et le serveur sont chiffrés (de bout-en-bout) à l'aide de la bibliothèque python `cryptography`.
+Implémentation d'une chatroom sécurisée avec chiffrement de bout en bout utilisant le protocole TCP. Les messages échangés entre les clients et le serveur sont chiffrés (AES) à l'aide de la bibliothèque python `cryptography`.
 Les clients peuvent envoyer et recevoir des messages chiffrés en temps réel, assurant une communication sécurisée et privée.
 
 ## Fonctionnalités
