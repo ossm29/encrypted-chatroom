@@ -21,7 +21,7 @@ Le chiffrement utilisé dans ce projet est Fernet, qui est une implémentation d
 
 ### Génération de la clé
 
-Le serveur génère une clé de chiffrement lors de son démarrage s'il n'existe pas déjà de fichier `secret.key`. Cette clé est ensuite stockée dans le fichier `secret.key`. Les clients doivent utiliser cette clé pour chiffrer et déchiffrer les messages. La clé doit être partagée manuellement avec les clients avant qu'ils ne se connectent au serveur.
+Le serveur génère une clé de chiffrement lors de son démarrage s'il n'existe pas déjà de fichier `secret.key`. Les clients doivent utiliser cette clé pour chiffrer et déchiffrer les messages. La clé doit être partagée manuellement avec les clients avant qu'ils ne se connectent au serveur.
 
 ### Utilisation de la clé
 
@@ -35,7 +35,7 @@ Le serveur accepte les connexions des clients et gère la communication entre eu
 ## Utilisation
 
 1. Clonez le dépôt :
-`git clone https://github.com/votre_nom_utilisateur/votre_chatroom.git`
+`git clone https://github.com/ossm29/encrypted-chatroom.git`
 
 
 2. Installez les dépendances :
@@ -43,8 +43,8 @@ Le serveur accepte les connexions des clients et gère la communication entre eu
 
 3. Exécutez le serveur :
 `python server.py <adresse_ip> <numéro_de_port>`
-<adresse_ip> : ip de la machine qui éxécute le serveur
-<numéro_de_port> : numéro de port non utilisé et non réservé dans la plage 1024-65535.
+- <adresse_ip> : ip de la machine qui éxécute le serveur
+- <numéro_de_port> : numéro de port non utilisé et non réservé dans la plage 1024-65535.
 
 4. Exécutez le/les clients :
 `python client.py <adresse_ip> <numéro_de_port>`
